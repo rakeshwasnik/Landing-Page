@@ -19,7 +19,6 @@
     padding: 88px;
     padding-left: 150px;
     padding-right: 150px;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -49,21 +48,6 @@ a {
  }
 
 
-
-
- .image-placeholder {
-    background-color: #eee;
-    height: 180px;
-    margin: 5px;
-    width: 400px;
-}
-
-.image-placeholder > h4 {
-    align-self: center;
-    text-align: center;
-    width: 100%;
-}
-
 h1 {
   color: #F9FAF8;
   font-size: 48px;
@@ -72,4 +56,116 @@ h1 {
 p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.webinfo, {
+  width: 50%;
+  padding-right: 20px;
+  
+}
+
+.image-placeholder {
+  width: 50%;
+  /* height: 60px; */
+  background-color: rgb(189, 183, 183);
+  text-align: center;
+  padding: 100px 0;
+  margin-right: 20px;
+}
+
+.button {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:active {
+  background-color: #006AE8;
+}
+
+.button:hover {
+  background-color: #1C84FF;
+}
+
+
+
+.infotainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  margin-top: 60px;
+}
+
+.info {
+  width: 150px;
+}
+
+
+ .infoimg {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+ }
+
+
+h2 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.quote-wrapper {
+  background-color: #E5E7EB;
+  margin: -8px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.cta-wrapper {
+  display: flex;
+  align-content: center;
+
 }
